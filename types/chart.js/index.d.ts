@@ -396,7 +396,6 @@ declare namespace Chart {
     interface TickOptions {
         autoSkip?: boolean;
         autoSkipPadding?: number;
-        beginAtZero?: boolean;
         callback?(value: any, index: any, values: any): string|number;
         display?: boolean;
         fontColor?: ChartColor;
